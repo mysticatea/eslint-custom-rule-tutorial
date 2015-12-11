@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "eslint-custom-rule-tutorial",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint .",
+    "watch": "npm test -- --watch --growl",
+    "test": "mocha eslint/test/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-eslint": "^1.0.1",
+    "mocha": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysticatea/eslint-custom-rule-tutorial.git"
+  },
+  "keywords": [],
+  "author": "Toru Nagashima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mysticatea/eslint-custom-rule-tutorial/issues"
+  },
+  "homepage": "https://github.com/mysticatea/eslint-custom-rule-tutorial#readme"
+}
